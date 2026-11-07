@@ -1,6 +1,6 @@
 # Anti-Patterns When Instructing Claude Code
 
-* [Avoid Open-Ended "Chore Commands" to Model in Architecture Files]()
+* [Avoid Open-Ended "Chore Commands" to Model in Architecture Files](#avoid-open-ended-chore-commands-to-model-in-architecture-files)
   * [The Fix](#the-fix)
 
 ## Avoid Open-Ended "Chore Commands" to Model in Architecture Files
@@ -47,16 +47,15 @@ The above instruction introduces 3 anti-patterns.
       - When asked to initialize or scaffold a new microservice or API boundary, first read `.docs/Architecture/minimal-api-architecture.md`.
       - Present the architectural style options to the user and require an explicit selection before writing any code.
       ```
-3. __If all Team Members have MCP Servers Configured:__ Since you cannot lock the MCP configuration into the project repository, you should manage your dev team synchronization through documentation and onboarding steps -- add a dedicated section in your project's main `README.md` file instructing developers on how to configure their local environment before running Claude Code
+3. __If all Team Members have MCP Servers Configured:__ Since you cannot lock the MCP configuration into the project repository, you should manage your dev team synchronization through documentation and onboarding steps -- add a dedicated section in your project's main `README.md` file instructing developers on how to configure their local environment before running Claude Code.
 
-   __Project's main `README.md`
+   __Project's main `README.md`__
    
    ```markdown
    ## 🤖 Claude Code Setup
    This project leverages specific Model Context Protocol (MCP) servers to help Claude Code fetch live architectural guidance.
 
    Ensure your global `~/.claude/config.json` includes the `microsoft-learn` MCP server:
-   ```json
    {
     "mcpServers": {
       "microsoft-learn": {
@@ -65,7 +64,6 @@ The above instruction introduces 3 anti-patterns.
       }
     }
    }
-   ```
    ```
 
    __Add a section to `CLAUDE.md`__
