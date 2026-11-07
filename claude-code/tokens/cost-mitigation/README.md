@@ -21,7 +21,7 @@ Because Anthropic dynamically calculates your usage based on model weight, runni
 * __Use Compact Sessions:__ When a bug is fixed, close the session (`/exit` or `/clear`). Keeping a massive session open while you move on to a brand-new task forces the harness to resubmit old conversation history, rapidly wasting your Pro credit on unneeded context.
 
 ## Specific Tips Related to Dotnet
-`
+
 ### Block .NET Noise via `.claudeignore`
 
 By default, the harness will try to index or search through everything in your folder. If it reads compiled binaries, it wastes a massive number of tokens. Create a `.claudeignore` file in the root of your solution directory and add the following lines:
