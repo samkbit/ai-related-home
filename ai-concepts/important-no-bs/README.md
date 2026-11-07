@@ -22,6 +22,7 @@
   * __```opus 5.*```__ model incurs the highest tokens in case of __Claude Code__ as the AI Coding Agent
 * There does not exist an AI Coding Agent that allows you to switch models from different model providers and utilize the tokens from your paid subscriptions to those models (via different Coding Agents) -- instead, this AI Coding Agent will have its own subscription plans and token limits
   * The closest example is __GitHub Copilot__ as AI Coding Agent which does not natively own its own models. Instead, it allows you to switch models from Claude Code, ChatGPT and Gemini. If you already have paid subscription to, say Claude Code, you cannot utilize its tokens in GH Copilot when you switch model to one of the models from Claude Code
+* For tips on saving tokens, see [`MyAiRelatedHome` __Cost Mitigation Tip for Claude Code Subscriptions__](https://github.com/samkbit/ai-related-home/tree/main/claude-code/tokens/cost-mitigation#readme)
 
 ## Cloud Agents
 
