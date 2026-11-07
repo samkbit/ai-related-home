@@ -47,29 +47,16 @@ The above instruction introduces 3 anti-patterns.
       - When asked to initialize or scaffold a new microservice or API boundary, first read `.docs/Architecture/minimal-api-architecture.md`.
       - Present the architectural style options to the user and require an explicit selection before writing any code.
       ```
-3. __If all Team Members have MCP Servers Configured:__ Since you cannot lock the MCP configuration into the project repository, you should manage your dev team synchronization through documentation and onboarding steps -- add a dedicated section in your project's main `README.md` file instructing developers on how to configure their local environment before running Claude Code.
-
-   __Project's main `README.md`__
-   
-   ```markdown
-   ## 🤖 Claude Code Setup
-   This project leverages specific Model Context Protocol (MCP) servers to help Claude Code fetch live architectural guidance.
-
-   Ensure your global `~/.claude/config.json` includes the `microsoft-learn` MCP server:
-   {
-    "mcpServers": {
-      "microsoft-learn": {
-        "command": "node",
-        "args": ["/path/to/microsoft-learn-server/index.js"]
-      }
-    }
-   }
-   ```
-
-   __Add a section to `CLAUDE.md`__
-
-   ```markdown
-   ## Architectural Validation Rules
-   - When analyzing architectural styles, use the attached `microsoft-learn` MCP server tool definitions to fetch the latest .NET Minimal API design patterns.
-   - Compare live Microsoft Learn findings against the local guidelines in `.docs/Architecture/minimal-api-architecture.md`.
-   ```
+3. __Optimize `CLAUDE.md` for Zero-Tool Defaults__
+   * Even if all your dev team members have MCP Servers configured (or the project's main `README.md` has a prereq section on how to configure MCP), __keep `CLAUDE.md` deterministic and treat live search as a manual, on-demand command__ -- otherwise Claude Code might __over-eagerly trigger the `microsoft-learn` MCP tool that can easily balloon your token consumption__.
+   * Add a section in `CLAUDE.md` instructing Claude to use its own internal knowledge or local files, and to only use the MCP as a backup resource if it gets stuck.
+      ```markdown
+      ## Architectural Validation Rules
+      - Rely on `.docs/Architecture/minimal-api-architecture.md` as the primary source of truth for architectural styles.
+      - Only query the `microsoft-learn` MCP server if explicitly commanded by the user, or if local documentation is missing critical syntax for .NET Minimal APIs.
+      ```
+   * A better alternative is to not add the above section (if tokens are to used wisely) and instead, manually __invoke prompts for heavy lifting__ whenever you think is necessary. For example, you may ask in the slash prompt
+      ```
+      > Claude, use the microsoft-learn MCP to check if there are any 2026 updates to Vertical Slice architecture
+       for Minimal APIs, and compare it to our doc in .docs/Architecture/minimal-api-architecture.md.
+      ```
