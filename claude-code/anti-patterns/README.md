@@ -55,7 +55,7 @@ The above instruction introduces 3 anti-patterns.
       - Rely on `.docs/Architecture/minimal-api-architecture.md` as the primary source of truth for architectural styles.
       - Only query the `microsoft-learn` MCP server if explicitly commanded by the user, or if local documentation is missing critical syntax for .NET Minimal APIs.
       ```
-   * A better alternative is to not add the above section (if tokens are to used wisely) and instead, manually __invoke prompts for heavy lifting__ whenever you think is necessary. For example, you may ask in the slash prompt
+   * A better alternative IMO (which Gemini was hinting at as well) is to not add the above section at all (if tokens are to be used wisely). Instead, manually __invoke prompts for heavy lifting__ whenever you think is necessary. For example, you may ask in the slash prompt
       ```
       > Claude, use the microsoft-learn MCP to check if there are any 2026 updates to Vertical Slice
         architecture for Minimal APIs, and compare it to our doc in
