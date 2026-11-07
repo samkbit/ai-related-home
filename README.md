@@ -8,5 +8,6 @@
 
 ## Topics ##
 
-* [Most Important No-BS AI Concepts to Grasp](ai-concepts/important-no-bs#readme)
-* [.NET Web Development with Obsidian & Claude Code](claude-code/structured-rules-with-obsidian/dotnet-webapi#readme)
+* [Most Important __No-BS AI Concepts__ to Grasp](ai-concepts/important-no-bs#readme)
+* [.NET Web Development with __Obsidian & Claude Code__](claude-code/structured-rules-with-obsidian/dotnet-webapi#readme)
+* [__Anti-Patterns__ When Instructing Claude Code](claude-code/anti-patterns#readme)
