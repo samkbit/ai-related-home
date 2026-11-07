@@ -59,5 +59,5 @@ The above instruction introduces 3 anti-patterns.
       ```
       > Claude, use the microsoft-learn MCP to check if there are any 2026 updates to Vertical Slice
         architecture for Minimal APIs, and compare it to our doc in
-        .docs/Architecture/minimal-api-architecture.md.
+        .docs/Architecture/minimal-api-architecture.md
       ```
