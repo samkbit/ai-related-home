@@ -57,7 +57,7 @@ The above instruction introduces 3 anti-patterns.
       ```
    * A better alternative is to not add the above section (if tokens are to used wisely) and instead, manually __invoke prompts for heavy lifting__ whenever you think is necessary. For example, you may ask in the slash prompt
       ```
-      > Claude, use the microsoft-learn MCP to check if there are any 2026 updates to Vertical
-        Slice architecture for Minimal APIs, and compare it to our doc in
+      > Claude, use the microsoft-learn MCP to check if there are any 2026 updates to Vertical Slice
+        architecture for Minimal APIs, and compare it to our doc in
         .docs/Architecture/minimal-api-architecture.md.
       ```
