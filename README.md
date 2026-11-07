@@ -9,3 +9,4 @@
 ## Topics ##
 
 * [Most Important No-BS AI Concepts to Grasp](ai-concepts/important-no-bs#readme)
+* [.NET Web Development with Obsidian & Claude Code](claude-code/structured-rules-with-obsidian/dotnet-webapi#readme)
