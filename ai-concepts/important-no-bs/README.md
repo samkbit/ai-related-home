@@ -18,7 +18,8 @@
 ## Tokens
 
 * Regardless of which AI Coding Agent(s) you have __paid subscription(s)__ for, you want to be able to __maximize the monthly tokens__ while not exceeding the tokens -- it almost sounds like your mobile data plan
-* AI Coding Agent allows you to switch among its own models only and the __highest tokens are used by the best model__ -- __```opus 5.*``` in case of __Claude Code__
+* AI Coding Agent allows you to switch among its own models and the __highest tokens are used by its best model__
+  * __```opus 5.*```__ model incurs the highest tokens in case of __Claude Code__ as the AI Coding Agent
 * There does not exist an AI Coding Agent that allows you to switch models from different model providers and utilize the tokens from your paid subscriptions to those models (via different Coding Agents) -- instead, this AI Coding Agent will have its own subscription plans and token limits
   * The closest example is __GitHub Copilot__ as AI Coding Agent which does not natively own its own models. Instead, it allows you to switch models from Claude Code, ChatGPT and Gemini. If you already have paid subscription to, say Claude Code, you cannot utilize its tokens in GH Copilot when you switch model to one of the models from Claude Code
 
