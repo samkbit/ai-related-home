@@ -2,8 +2,10 @@
 
 > Created entirely based on my convo with Gemini and asking it at the end to generate a markdown
 >
-> * __Where this should be utilized and taken to the next step__ is at my GH Template project [__Dotnet Minimal API with AI Rules__](https://github.com/hasilo-org/gh-template-for-dotnet-minimal-api-with-ai-rules)
-> * Working with Gemini IMO gives you an excellent overview independent of your actual git repo projects -- once you create actual projects, use your licensed AI assistant (with access to the latest LLM versions hopefully) and __start a new convo using this Gemini convo as a guidance__
+> * __Notice this page resides in a path that clearly specifies `claude-code` as an ascendant node, yet this page is generated based on convo with Gemini__
+> * Working with Gemini IMO gives you an excellent overview independent of your actual git repo projects -- once you create actual projects, use your licensed AI assistant (with access to the latest LLM versions hopefully), in this case Claude Code based on this page's file path, and __start a new convo using this Gemini convo as a guidance__
+>   * For example, this Gemini convo provided a great starting point in at least the following real projects
+>     * GitHub Template project: [__Dotnet Minimal API with AI Rules__](https://github.com/hasilo-org/gh-template-for-dotnet-minimal-api-with-ai-rules)
 
 ## Comprehensive Engineering Strategy: .NET Web Development with Obsidian & Claude Code ##
 
