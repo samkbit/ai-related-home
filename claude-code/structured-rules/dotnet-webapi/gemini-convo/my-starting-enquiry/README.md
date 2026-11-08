@@ -1,4 +1,4 @@
-# .NET Web Development with Obsidian & Claude Code #
+# Dotnet `webapi` Development with Claude Code & Utilizing Obsidian # 
 
 > Created entirely based on my convo with Gemini and asking it at the end to generate a markdown
 >
@@ -6,6 +6,7 @@
 > * Working with Gemini IMO gives you an excellent overview independent of your actual git repo projects -- once you create actual projects, use your licensed AI assistant (with access to the latest LLM versions hopefully), in this case Claude Code based on this page's file path, and __start a new convo using this Gemini convo as a guidance__
 >   * For example, this Gemini convo provided a great starting point in at least the following real projects
 >     * GitHub Template project: [__Dotnet Minimal API with AI Rules__](https://github.com/hasilo-org/gh-template-for-dotnet-minimal-api-with-ai-rules)
+> * My verdict on __utilizing Obsidian is unclear to date__
 
 ## Comprehensive Engineering Strategy: .NET Web Development with Obsidian & Claude Code ##
 
