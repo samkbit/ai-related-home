@@ -67,7 +67,7 @@ Place these structural guidelines, best practices, and templates inside your `.d
 
 ### File: `.docs/Architecture/Minimal-API-Pattern.md`
 
-```markdown
+````markdown
 # Architectural Pattern: Vertical Slices, EF Core, & FluentValidation
 
 ## EF Core Registration Syntax
@@ -86,6 +86,7 @@ builder.Services.AddDbContext<ApplicationDbContext>((serviceProvider, options) =
     });
 });
 ```
+````
 
 ## Feature Slice with FluentValidation
 Every feature slice requiring request validation must utilize `FluentValidation`. Validate requests immediately at the beginning of service execution to enforce the Single Responsibility Principle.
@@ -148,7 +149,8 @@ public static class CreateOrderEndpoint
 
 ### File: `.docs/Architecture/Options-Pattern.md`
 
-```markdown
+````markdown
+
 # Configuration Standard: Options Pattern
 
 We strictly prohibit injecting `IConfiguration` into custom services or endpoints. This violates the Dependency Inversion and Interface Segregation principles by leaking global configuration layout into granular domains.
@@ -190,9 +192,10 @@ public class PaymentProcessingService
 }
 ```
 
-```
+````
 ### File: `.docs/Testing/Test-Strategy.md`
-```markdown
+
+````markdown
 # Testing Strategy: xUnit, Moq, & FluentAssertions
 
 All tests must be written inside the `tests/` directory using **xUnit** and **Moq**. Avoid using native xUnit `Assert.*` statements—strictly use FluentAssertions `.Should()` expressions for clean, domain-readable tests.
@@ -242,6 +245,7 @@ public class CreateOrderServiceTests
     }
 }
 ```
+````
 
 ## Integration Testing Strategy [PLACEHOLDER]
 *Human Note: The exact database tool for integration testing is currently under evaluation (e.g., Testcontainers vs. Respawn vs. SQLite In-Memory).*
