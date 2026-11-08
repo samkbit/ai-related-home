@@ -147,13 +147,15 @@ public static class CreateOrderEndpoint
 ```
 
 ### File: `.docs/Architecture/Options-Pattern.md`
+
 ```markdown
 # Configuration Standard: Options Pattern
 
 We strictly prohibit injecting `IConfiguration` into custom services or endpoints. This violates the Dependency Inversion and Interface Segregation principles by leaking global configuration layout into granular domains.
 
 ## Step 1: Define the Options Record
-```csharp
+
+```c#
 namespace MyProject.Infrastructure.Options;
 
 public record DatabaseOptions
@@ -166,7 +168,8 @@ public record DatabaseOptions
 ```
 
 ## Step 2: Bind Options in Program.cs
-```csharp
+
+```c#
 builder.Services.AddOptions<DatabaseOptions>()
     .Bind(builder.Configuration.GetSection(DatabaseOptions.SectionName))
     .ValidateDataAnnotations()
@@ -174,7 +177,8 @@ builder.Services.AddOptions<DatabaseOptions>()
 ```
 
 ## Step 3: Consume Options via Constructor Injection
-```csharp
+
+```c#
 public class PaymentProcessingService
 {
     private readonly DatabaseOptions _options;
@@ -186,6 +190,7 @@ public class PaymentProcessingService
 }
 ```
 
+```
 ### File: `.docs/Testing/Test-Strategy.md`
 ```markdown
 # Testing Strategy: xUnit, Moq, & FluentAssertions
