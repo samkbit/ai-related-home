@@ -1,5 +1,12 @@
 # Cost Mitigation Tip for Claude Code Subscriptions
 
+> Created entirely based on my convo with Gemini and asking it at the end to generate a markdown
+>
+> * __Notice this page resides in a path that clearly specifies `claude-code` as an ascendant node, yet this page is generated based on convo with Gemini__
+> * Working with Gemini IMO gives you an excellent overview independent of your actual git repo projects -- once you create actual projects, use your licensed AI assistant (with access to the latest LLM versions hopefully), in this case Claude Code based on this page's file path, and __start a new convo using this Gemini convo as a guidance__
+>   * For example, this Gemini convo provided a great starting point in at least the following real projects
+>     * GitHub Template project: [__Dotnet Minimal API with AI Rules__](https://github.com/hasilo-org/gh-template-for-dotnet-minimal-api-with-ai-rules)
+
 ## The Tip
 
 To stop premium models from chewing through your tokens during basic tasks, developers often use the `/model opusplan` alias. This tells the harness to use the heavy intelligence of __Opus__ to outline the initial engineering blueprint, but automatically swaps down to __Sonnet__ to write the actual code and run the tests—giving you deep reasoning at a fraction of the token cost.
