@@ -16,7 +16,7 @@
 * Examples
   * In project [`GhHasiloOrg|gh-template-for-dotnet-minimal-api-with-ai-rules` __Dotnet Minimal API with AI Rules__](https://github.com/hasilo-org/gh-template-for-dotnet-minimal-api-with-ai-rules), in the midst of convo while updating structured rules, I said the following
     ```
-    In your above response titled "I can do on request", yes do them. As for "6. Scaffolding
+    > In your above response titled "I can do on request", yes do them. As for "6. Scaffolding
      workflow:", perhaps get user inputs up-front quickly but in a systematic manner -- I want
      to prevent a scenario where you proceed with scaffolding workflow and ask for user inputs
      late in the process when user might have already left the computer for a coffee break,
