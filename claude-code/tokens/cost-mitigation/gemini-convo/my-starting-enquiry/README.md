@@ -1,4 +1,4 @@
-# Cost Mitigation Tip for Claude Code Subscriptions
+# Cost Mitigation Tips for Claude Code Subscriptions
 
 > Created entirely based on my convo with Gemini and asking it at the end to generate a markdown
 >
