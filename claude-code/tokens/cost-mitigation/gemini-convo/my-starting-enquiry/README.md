@@ -9,7 +9,7 @@
 > * Interesting Observations
 >   * Per below section [Block .NET Noise via `.claudeignore`](#block-net-noise-via-claudeignore), Gemini refers to `.claudeignore` as something Claude Code supports natively but once you start conversing with Claude Code, you realize this is not true -- in fact, Claude Code understands your intent and correctly tells you that you should use `.claude/settings.json` containing a section `permissions:deny`
 
-## The Tip
+## The Tips
 
 To stop premium models from chewing through your tokens during basic tasks, developers often use the `/model opusplan` alias. This tells the harness to use the heavy intelligence of __Opus__ to outline the initial engineering blueprint, but automatically swaps down to __Sonnet__ to write the actual code and run the tests—giving you deep reasoning at a fraction of the token cost.
 
