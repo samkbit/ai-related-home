@@ -6,6 +6,8 @@
 > * Working with Gemini IMO gives you an excellent overview independent of your actual git repo projects -- once you create actual projects, use your licensed AI assistant (with access to the latest LLM versions hopefully), in this case Claude Code based on this page's file path, and __start a new convo using this Gemini convo as a guidance__
 >   * For example, this Gemini convo provided a great starting point in at least the following real projects
 >     * GitHub Template project: [__Dotnet Minimal API with AI Rules__](https://github.com/hasilo-org/gh-template-for-dotnet-minimal-api-with-ai-rules)
+> * Interesting Observations
+>   * Per below section [Block .NET Noise via `.claudeignore`](), Gemini refers to `.claudeignore` as something Claude Code supports natively but once you start conversing with Claude Code, you realize this is not true -- in fact, Claude Code understands your intent and correctly tells you that you should use `.claude/settings.json` containing a section `permissions:deny`
 
 ## The Tip
 
