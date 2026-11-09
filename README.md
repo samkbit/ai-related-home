@@ -16,4 +16,4 @@
     * __Selected:__
       * [Adding Permission Rules in __`.claude/settings.json`__](claude-code/structured-rules/permissions#readme)
       * [__Claude Code Structured Rules for Dotnet Minimal APIs__](claude-code/structured-rules/dotnet-webapi#readme)
-        * [__Dotnet `webapi` Development__ with Claude Code & Utilizing Obsidian](claude-code/structured-rules/dotnet-webapi/gemini-convo/my-starting-enquiry#readme)
+
