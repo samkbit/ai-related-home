@@ -43,6 +43,6 @@ In ```TODO.md```, I added the following section
 ```markdown
 ## Unattended runs
 
-- Permission prompts will still pause the run unless you pre-approve the dotnet commands and file writes. The skill says so at confirmation. I didn't add allow rules to the shared settings.json, since that's your call.
+- [ ] Permission prompts will still pause the run unless you pre-approve the dotnet commands and file writes. The skill says so at confirmation. I didn't add allow rules to the shared settings.json, since that's your call.
 ```
 
