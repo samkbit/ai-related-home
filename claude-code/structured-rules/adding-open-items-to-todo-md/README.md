@@ -6,7 +6,7 @@
 * Especially __important to itemize in ```TODO.md```__ are the open items mentioned in __Claude Code report after each run__
   * These open items are placed under various titles but they are self-explanatory
   * Some examples of what I have seen under different titles are listed below in sub-sections
-  * > __Claude Code realizes what you are doing with `TODO.md` and in subsequent runs, it may directly start adding to with in addition to showing the items in the run report__
+  * > __Claude Code can easily realize what you are doing with `TODO.md` and in subsequent runs, it may directly start adding items to it in addition to showing the items in the run report__
 
 ### `Things to check or decide:`
 
