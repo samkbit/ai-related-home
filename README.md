@@ -9,5 +9,7 @@
 ## Topics ##
 
 * [Most Important __No-BS AI Concepts__ to Grasp](ai-concepts/important-no-bs#readme)
-* [.NET Web Development with __Obsidian & Claude Code__](claude-code/structured-rules-with-obsidian/dotnet-webapi#readme)
-* [__Anti-Patterns__ When Instructing Claude Code](claude-code/anti-patterns#readme)
+* __Claude Code__
+  * [__Dotnet `webapi` Development__ with Claude Code & Utilizing Obsidian](claude-code/structured-rules/dotnet-webapi/gemini-convo/my-starting-enquiry#readme)
+  * [__Anti-Patterns__ When Instructing Claude Code](claude-code/anti-patterns#readme)
+  * [__Cost Mitigation Tip__ for Claude Code Subscriptions](claude-code/tokens/cost-mitigation/gemini-convo/my-starting-enquiry#readme)
