@@ -23,4 +23,4 @@
      thinking it's gonna take a while in uninterrupted manner -- maybe you will need to create
      a skill for this, with various categories for user inputs, up to you.
     ```
-    * I simply hinted at it (based on my previous experience with it) and result was exactly that -- Claude Code must have thought it was the way to go. There was a new `SKILL.md` created in `.claude/skills/scaffold-api`
+    * I simply hinted at it (based on my previous experience with it) and result was exactly that -- Claude Code must have thought it was the way to go. There was a new `SKILL.md` created in `.claude/skills/scaffold-api/`
