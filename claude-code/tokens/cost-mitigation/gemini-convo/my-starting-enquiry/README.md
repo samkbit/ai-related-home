@@ -7,7 +7,7 @@
 >   * For example, this Gemini convo provided a great starting point in at least the following real projects
 >     * GitHub Template project: [__Dotnet Minimal API with AI Rules__](https://github.com/hasilo-org/gh-template-for-dotnet-minimal-api-with-ai-rules)
 > * Interesting Observations
->   * Per below section [Block .NET Noise via `.claudeignore`](), Gemini refers to `.claudeignore` as something Claude Code supports natively but once you start conversing with Claude Code, you realize this is not true -- in fact, Claude Code understands your intent and correctly tells you that you should use `.claude/settings.json` containing a section `permissions:deny`
+>   * Per below section [Block .NET Noise via `.claudeignore`](#block-net-noise-via-claudeignore), Gemini refers to `.claudeignore` as something Claude Code supports natively but once you start conversing with Claude Code, you realize this is not true -- in fact, Claude Code understands your intent and correctly tells you that you should use `.claude/settings.json` containing a section `permissions:deny`
 
 ## The Tip
 
