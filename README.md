@@ -10,6 +10,10 @@
 
 * [Most Important __No-BS AI Concepts__ to Grasp](ai-concepts/important-no-bs#readme)
 * __Claude Code__
-  * [__Dotnet `webapi` Development__ with Claude Code & Utilizing Obsidian](claude-code/structured-rules/dotnet-webapi/gemini-convo/my-starting-enquiry#readme)
   * [__Anti-Patterns__ When Instructing Claude Code](claude-code/anti-patterns#readme)
-  * [__Cost Mitigation Tip__ for Claude Code Subscriptions](claude-code/tokens/cost-mitigation/gemini-convo/my-starting-enquiry#readme)
+  * [__Cost Mitigation Tips__ for Claude Code Subscriptions](claude-code/tokens/cost-mitigation/gemini-convo/my-starting-enquiry#readme)
+  * [__Taming Claude Code with Structured Rules__](claude-code/structured-rules#readme)
+    * __Selected:__
+      * [Adding Permission Rules in __`.claude/settings.json`__](claude-code/structured-rules/permissions#readme)
+      * [__Claude Code Structured Rules for Dotnet Minimal APIs__](claude-code/structured-rules/dotnet-webapi#readme)
+        * [__Dotnet `webapi` Development__ with Claude Code & Utilizing Obsidian](claude-code/structured-rules/dotnet-webapi/gemini-convo/my-starting-enquiry#readme)
